@@ -8,15 +8,58 @@
 </head>
 <body>
 
-<div id="title"></div>
-<ul>
-    <li class="alts"></li>
-    <li class="alts"></li>
-    <li class="alts"></li>
-    <li class="alts"></li>
-</ul>
-    
-<button type="button" class="btn btn-primary">Submit</button>
+<div class="container">
+    <div class="score">
+        <span id="users-score">0</span>
+        <span>/</span>
+        <span id="total-score">0</span>
+    </div>      
+
+    <div class="card" id="question-one">
+        <h2 class="question-text">Which is not a JavaScript data type?</h2>
+            <button class="btn btn-wrong" id="wrong-answer">Number</button>
+            <button class="btn btn-wrong" id="wrong-answer">String</button>
+            <button class="btn btn-wrong" id="wrong-answer">Boolean</button>
+            <button class="btn btn-correct" id="correct-answer">Defined</button>
+    </div>    
+
+    <div class="card" id="question-two">
+        <h2 class="question-text">Which language runs in a web browser?</h2>
+            <button class="btn btn-wrong" id="wrong-answer">Python</button>
+            <button class="btn btn-correct" id="correct-answer">JavaScript</button>
+            <button class="btn btn-wrong" id="wrong-answer">Cobra</button>
+            <button class="btn btn-wrong" id="wrong-answer">Java</button>
+    </div>    
+
+    <div class="card" id="question-three">
+        <h2 class="question-text">What does CSS stand for?</h2>
+            <button class="btn btn-wrong" id="wrong-answer">Central Style Sheets</button>
+            <button class="btn btn-wrong" id="wrong-answer">Common Style Sheets</button>
+            <button class="btn btn-correct" id="correct-answer">Cascading Style Sheets</button>
+            <button class="btn btn-wrong" id="wrong-answer">Cascading Simple Sheets</button>
+    </div>    
+
+    <div class="card" id="question-four">
+        <h2 class="question-text">What year was JavaScript launched?</h2>
+            <button class="btn btn-wrong" id="wrong-answer">1990</button>
+            <button class="btn btn-wrong" id="wrong-answer">1996</button>
+            <button class="btn btn-wrong" id="wrong-answer">1992</button>
+            <button class="btn btn-correct" id="correct-answer">1995</button>
+    </div>    
+
+    <div class="card" id="question-five">
+        <h2 class="question-text">What does HTML stand for?</h2>
+            <button class="btn btn-correct" id="correct-answer">Hypertext Markup Language</button>
+            <button class="btn btn-wrong" id="wrong-answer">Hyperweb Markup Language</button>
+            <button class="btn btn-wrong" id="wrong-answer">Hypertext Machine Language</button>
+            <button class="btn btn-wrong" id="wrong-answer">Hyperpage Markdown Language</button>
+    </div>    
+
+    <div class="mother-board">
+        <button class="btn btn-restart" id="restart">Restart</button>
+        <button class="btn btn-submit" id="submit">Submit</button>
+    </div>    
+</div>
 
 </body>
 

@@ -1,8 +1,4 @@
-let question = {
-    title: "Which is not a JavaScript data type?",
-    alts: ['Number', 'String', 'Boolean', 'Defined'],
-    correctAnswer: 3,
-}
+
 
 function showQuestion(q) {
     let titleCard = document.getElementById("title");
@@ -17,10 +13,18 @@ showQuestion(question);
 
 let btn = document.getElementById('btn');
 btn.addEventListener('click', function(){
-    
 });
 
 
+
+
+
+
+// let questionOne = {
+//     title: "Which is not a JavaScript data type?",
+//     alts: ['Number', 'String', 'Boolean', 'Defined'],
+//     correctAnswer: 3,
+// }
 
 // let questionTwo = {
 //     question: "Which language runs in a web browser",
@@ -43,5 +47,5 @@ btn.addEventListener('click', function(){
 // let questionFive = {
 //     question: "What does HTML stand for?",
 //     answers: ['Hypertext Markup Language', 'Hyperweb Markup Language', 'Hypertext Machine Language', 'Hyperpage Markdown Language'],
-//     correctAnswer: ,
+//     correctAnswer: 0, 
 // }
