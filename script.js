@@ -8,7 +8,7 @@ function myFunction() {
 
     questionOne();
 
-    setTimeout(finalScore, 10000);
+    setTimeout(finalScore, 20000);
     
 }
 
@@ -149,3 +149,13 @@ function results() {
     $(document.querySelector(".score")).hide();
 
 }
+// let obj1 = {
+    
+// }
+// let questionbank = [{question: "what is my question",
+//     answer: "answer to my question",}, {question}] 
+
+// let arry = [1, 2, 3]
+// arry[1]
+
+// questionbank[1].question
